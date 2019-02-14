@@ -1,7 +1,7 @@
 <?php
 class Account {
     public $id;
-    $name;
+    public $name;
     public $document;
     public $email;
     public $password;

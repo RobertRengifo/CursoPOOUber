@@ -1,5 +1,6 @@
 <?php
-class Car{
+include("account.php");
+class Car extends account{
     $id;
     $license;
     $driver;
@@ -10,5 +11,7 @@ class Car{
         $this->driver = $driver;
     }
 
-    echo ''
+    public function showInfo(){
+        echo "License: " this->license;
+    }
 }?> 
