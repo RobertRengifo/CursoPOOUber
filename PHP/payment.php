@@ -1,3 +1,5 @@
+<?php
 class Payment{
-    $id
+    public $id
 }
+?>
